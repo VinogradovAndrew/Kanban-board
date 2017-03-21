@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+.app-wrapper, .app, .section {
+    height: 100%;
+}
+
+body {
+    padding: 10px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+textarea {
+    resize: none;
+}
+
+.header {
+    margin: 5px 0 15px;
+}
+
+.dropdown-label {
+    margin-right: 5px;
+}
+
+.section {
+    border: 1px solid grey;
+    border-right: none;
+    outline-offset: -10px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: white;
+}
+
+.section:last-child {
+    border-right: 1px solid grey;
+}
+
+.section-header {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.task {
+    height: 100px;
+    border: 1px solid grey;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.task-creation-time {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    cursor: default;
+}
+
+.section:nth-child(2) .task-description {
+    cursor: text;
+}
+
+.task-description {
+    height: 65px;
+    margin: 0;
+    padding: 5px 8px 0 8px;
+    word-break: break-all;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}
+
+.task-description span {
+    display: inline-block;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.task-priority {
+    position: absolute;
+    bottom: -3px;
+    right: 30px;
+    font-size: 19px;
+    cursor: not-allowed;
+}
+
+.section:nth-child(2) .task-priority,
+.section:nth-child(3) .task-priority {
+    cursor: pointer;
+}
+
+.task-remove-icon {
+    position: absolute;
+    bottom: -3px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.task-remove-icon:hover {
+    opacity: 0.7;
+}

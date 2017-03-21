@@ -1,0 +1,24 @@
+{
+  "name": "javascripts",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-dev-utils": "^0.5.0",
+    "redux-logger": "^2.8.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bootstrap": "^3.3.7",
+    "dateformat": "^2.0.0",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dnd": "^2.2.4",
+    "react-dnd-html5-backend": "^2.2.4",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "uuid": "^3.0.1"
+  }
+}
